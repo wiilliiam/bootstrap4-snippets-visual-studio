@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boostrap4Snippets", "Boostrap4Snippets\Boostrap4Snippets.csproj", "{81968E7F-069B-46EB-86A9-7BE154BE5C52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap4Snippets", "Bootstrap4Snippets\Bootstrap4Snippets.csproj", "{81968E7F-069B-46EB-86A9-7BE154BE5C52}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{CE76E916-878C-446B-B1C7-2BC2269E1392}"
 	ProjectSection(SolutionItems) = preProject

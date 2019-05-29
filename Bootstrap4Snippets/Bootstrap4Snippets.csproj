@@ -13,8 +13,8 @@
     <ProjectGuid>{81968E7F-069B-46EB-86A9-7BE154BE5C52}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Boostrap4Snippets</RootNamespace>
-    <AssemblyName>Boostrap4Snippets</AssemblyName>
+    <RootNamespace>Bootstrap4Snippets</RootNamespace>
+    <AssemblyName>Bootstrap4Snippets</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
     <UseCodebase>true</UseCodebase>
@@ -46,7 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Boostrap4SnippetsPackage.cs" />
+    <Compile Include="Bootstrap4SnippetsPackage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="preview.png">

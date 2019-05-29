@@ -24,8 +24,8 @@ namespace Boostrap4Snippets
     /// </para>
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [Guid(Boostrap4SnippetsPackage.PackageGuidString)]
-    public sealed class Boostrap4SnippetsPackage : AsyncPackage
+    [Guid(Bootstrap4SnippetsPackage.PackageGuidString)]
+    public sealed class Bootstrap4SnippetsPackage : AsyncPackage
     {
         /// <summary>
         /// Boostrap4SnippetsPackage GUID string.
