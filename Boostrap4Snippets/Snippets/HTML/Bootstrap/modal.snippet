@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Modal</Title>
+			<Author>William Robinson</Author>
+			<Description>Modals are streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults.</Description>
+			<Shortcut>bs-modal</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>title</ID>
+					<ToolTip>Title of the modal</ToolTip>
+					<Default>Modal title</Default>
+				</Literal>
+				<Literal>
+					<ID>content</ID>
+					<ToolTip>Content of the modal</ToolTip>
+					<Default><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>]]></Default>
+				</Literal>
+				<Literal>
+					<ID>close-text</ID>
+					<ToolTip>Text for the "close" button</ToolTip>
+					<Default>Close</Default>
+				</Literal>
+				<Literal>
+					<ID>save-text</ID>
+					<ToolTip>Text for the "save" button</ToolTip>
+					<Default>Save changes</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal" id="exampleModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id=exampleModalLabel>$title$</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        $content$
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">$close-text$</button>
+        <button type="button" class="btn btn-primary">$save-text$</button>
+      </div>
+    </div>
+  </div>
+</div>$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

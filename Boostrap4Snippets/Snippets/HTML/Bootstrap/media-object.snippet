@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Media object</Title>
+			<Author>William Robinson</Author>
+			<Description>Abstract object styles for building various types of components (like blog comments, Tweets, etc) that feature a left- or right-aligned image alongside textual content.</Description>
+			<Shortcut>bs-media-object</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>image</ID>
+					<ToolTip>The image for the media object</ToolTip>
+					<Default>http://placehold.it/64x64</Default>
+				</Literal>
+				<Literal>
+					<ID>heading</ID>
+					<ToolTip>The heading for the media object</ToolTip>
+					<Default>Media heading</Default>
+				</Literal>
+				<Literal>
+					<ID>content</ID>
+					<ToolTip>The content for the media object</ToolTip>
+					<Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<div class="media">
+  <img src="$image$" class="mr-3" alt="...">
+  <div class="media-body">
+    <h5 class="mt-0">$heading$</h5>
+    $content$
+  </div>
+</div>$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

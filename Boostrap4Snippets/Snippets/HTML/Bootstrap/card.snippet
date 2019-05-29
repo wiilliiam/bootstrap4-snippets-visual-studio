@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Card</Title>
+      <Author>William Robinson</Author>
+      <Description>A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.</Description>
+      <Shortcut>bs-card</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>title</ID>
+          <ToolTip>The content for the card title</ToolTip>
+          <Default>Card title</Default>
+        </Literal>
+        <Literal>
+          <ID>subtitle</ID>
+          <ToolTip>The content for the card subtitle</ToolTip>
+          <Default>Card subtitle</Default>
+        </Literal>
+        <Literal>
+          <ID>content</ID>
+          <ToolTip>The content for the card body</ToolTip>
+          <Default>Some quick example text to build on the card title and make up the bulk of the card's content.</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">$title$</h5>
+    <h6 class="card-subtitle mb-2 text-muted">$subtitle$</h6>
+    <p class="card-text">$content$</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

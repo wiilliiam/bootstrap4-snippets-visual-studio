@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Card list group</Title>
+      <Author>William Robinson</Author>
+      <Description>Create lists of content in a card with a flush list group.</Description>
+      <Shortcut>bs-card-list</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>title</ID>
+          <ToolTip>The content for the list header</ToolTip>
+          <Default>Featured</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    $title$
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Crasjustoodio</li>
+    <li class="list-group-item">Dapibusacfacilisis in</li>
+    <li class="list-group-item">Vestibulumateros</li>
+  </ul>
+</div>
+$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+	xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Media list</Title>
+			<Author>William Robinson</Author>
+			<Description>Abstract object styles for building various types of components (like blog comments, Tweets, etc) that feature a left- or right-aligned image alongside textual content.</Description>
+			<Shortcut>bs-media-list</Shortcut>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>image1</ID>
+					<ToolTip>The image for the first media object</ToolTip>
+					<Default>http://placehold.it/64x64</Default>
+				</Literal>
+				<Literal>
+					<ID>heading1</ID>
+					<ToolTip>The heading for the first media object</ToolTip>
+					<Default>Media heading 1</Default>
+				</Literal>
+				<Literal>
+					<ID>content1</ID>
+					<ToolTip>The content for the first media object</ToolTip>
+					<Default>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Default>
+				</Literal>
+				<Literal>
+					<ID>image2</ID>
+					<ToolTip>The image for second media object</ToolTip>
+					<Default>http://placehold.it/64x64</Default>
+				</Literal>
+				<Literal>
+					<ID>heading2</ID>
+					<ToolTip>The heading for the second media object</ToolTip>
+					<Default>Media heading 2</Default>
+				</Literal>
+				<Literal>
+					<ID>content2</ID>
+					<ToolTip>The content for the second media object</ToolTip>
+					<Default>Morbi eget libero quis metus consectetur semper.</Default>
+				</Literal>
+				<Literal>
+					<ID>image3</ID>
+					<ToolTip>The image for the third media object</ToolTip>
+					<Default>http://placehold.it/64x64</Default>
+				</Literal>
+				<Literal>
+					<ID>heading3</ID>
+					<ToolTip>The heading for the third media object</ToolTip>
+					<Default>Media heading 3</Default>
+				</Literal>
+				<Literal>
+					<ID>content3</ID>
+					<ToolTip>The content for the third media object</ToolTip>
+					<Default>Suspendisse ullamcorper massa eget eleifend iaculis.</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="HTML">
+				<![CDATA[<ul class="list-unstyled">
+  <li class="media">
+    <img src="$image1$" class="mr-3" alt="...">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">$heading1$</h5>
+      $content1$
+    </div>
+  </li>
+  <li class="media my-4">
+    <img src="$image2$" class="mr-3" alt="...">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">$heading2$</h5>
+      $content2$
+    </div>
+  </li>
+  <li class="media">
+    <img src="$image3$" class="mr-3" alt="...">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">$heading3$</h5>
+      $content3$
+      </div>
+  </li>
+</ul>$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
