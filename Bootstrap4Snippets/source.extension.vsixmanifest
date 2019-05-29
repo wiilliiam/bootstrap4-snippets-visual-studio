@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Boostrap4Snippets.eef10f50-95be-4044-a31e-b3d98cc1d4f1" Version="1.0" Language="en-US" Publisher="W Robinson" />
-        <DisplayName>Boostrap 4 Snippet Pack</DisplayName>
+        <Identity Id="Boostrap4Snippets.eef10f50-95be-4044-a31e-b3d98cc1d4f1" Version="1.0" Language="en-US" Publisher="William Robinson" />
+        <DisplayName>Bootstrap 4 Snippet Pack</DisplayName>
         <Description xml:space="preserve">A collection of Twitter Bootstrap 4 snippets for Visual Studio.</Description>
         <MoreInfo>https://github.com/wiilliiam/bootstrap4-snippets-visual-studio</MoreInfo>
         <License>LICENSE.txt</License>
