@@ -8,6 +8,7 @@
         <License>LICENSE.txt</License>
         <GettingStartedGuide>https://github.com/wiilliiam/bootstrap4-snippets-visual-studio</GettingStartedGuide>
         <Icon>logo.png</Icon>
+        <PreviewImage>preview.png</PreviewImage>
         <Tags>snippets, bootstrap, web, html</Tags>
     </Metadata>
     <Installation>

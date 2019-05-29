@@ -49,45 +49,166 @@
     <Compile Include="Boostrap4SnippetsPackage.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Snippets\HTML\Bootstrap\alert.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\btn-dropdown-split.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\btn-dropdown.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\btn-toolbar.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\collapse.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\carousel.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\card-list.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\card.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\badge.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\breadcrumb.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\btn-outline.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\btn.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\btn-group.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\form-group-checkbox.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\form-group.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\input-group.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\form-horizontal.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\form-inline.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\form.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\range.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\switch.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\jumbotron.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\list-group.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\media-list.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\media-object.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\modal-lg.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\modal-sm.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\modal.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\nav-pills.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\nav-tabs.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\navbar.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\pagination.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\popover.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\progress-bar.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\scrollspy.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\template.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\toast.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\spinner.snippet" />
-    <None Include="Snippets\HTML\Bootstrap\tooltip.snippet" />
+    <Content Include="preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\alert.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\btn-dropdown-split.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\btn-dropdown.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\btn-toolbar.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\collapse.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\carousel.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\card-list.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\card.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\badge.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\breadcrumb.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\btn-outline.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\btn.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\btn-group.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\form-group-checkbox.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\form-group.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\input-group.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\form-horizontal.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\form-inline.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\form.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\range.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\switch.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\jumbotron.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\list-group.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\media-list.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\media-object.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\modal-lg.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\modal-sm.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\modal.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\nav-pills.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\nav-tabs.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\navbar.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\pagination.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\popover.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\progress-bar.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\scrollspy.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\template.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\toast.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\spinner.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Bootstrap\tooltip.snippet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
@@ -109,7 +230,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="snippets.pkgdef" />
+    <Content Include="snippets.pkgdef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
