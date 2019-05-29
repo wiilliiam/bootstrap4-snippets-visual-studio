@@ -13,7 +13,7 @@ The code snippets are currently based on Bootstrap **4.3.1**
 
 [Change log](https://github.com/wiilliiam/bootstrap4-snippets-visual-studio/blob/master/change-log.md)
 
-![The "Code Snippets Manager" dialog](Bootstrap4Snippets/preview.png)  
+![The "Code Snippets Manager" dialog](/Bootstrap4Snippets/preview.png)  
 The "Code Snippets Manager" dialog
 
 Todo
