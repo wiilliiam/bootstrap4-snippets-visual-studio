@@ -7,6 +7,8 @@ Contains a collection of [Twitter Bootstrap](https://getbootstrap.com/) snippets
 
 The code snippets are currently based on Bootstrap **4.3.1**
 
+If you already have the Bootstrap 3 Snippet Pack installed you will need to remove this as the snippet shortcuts are the same.
+
 [Download the extension](https://visualstudiogallery.msdn.microsoft.com/)
 
 [Snippet Listing](https://github.com/wiilliiam/bootstrap4-snippets-visual-studio/blob/master/snippet-listing.md)
